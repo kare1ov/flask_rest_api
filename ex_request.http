@@ -1,0 +1,39 @@
+###
+
+# curl -X POST http://localhost:5000/posts -v -H "Content-type: application/json" -d '{"title": "Title2", "body": "qsdfwert1", "date": "20sdfhwerh00:00"}'
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "title": "Title2",
+  "body": "qsdfwert1",
+  "date": "20sdfhwerh00:00"
+}
+
+###
+
+# curl http://localhost:5000/posts -v
+GET http://localhost:5000/posts
+
+###
+
+# curl -X DELETE http://localhost:5000/posts/d35c802d-a5a6-43e8-9055-0f246dac948f -v
+DELETE http://localhost:5000/posts/d35c802d-a5a6-43e8-9055-0f246dac948f
+
+###
+
+# curl -X PUT http://localhost:5000/posts/d35c802d-a5a6-43e8-9055-0f246dac948f -v -H "Content-type: application/json" -d '{"title": "Titsdfle2", "body": "111111qsdfwert1"}'
+PUT http://localhost:5000/posts/d35c802d-a5a6-43e8-9055-0f246dac948f
+Content-Type: application/json
+
+{
+  "title": "Titsdfle2",
+  "body": "111111qsdfwert1"
+}
+
+###
+
+
+
+
+
